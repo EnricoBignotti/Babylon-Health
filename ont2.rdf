@@ -1,0 +1,268 @@
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Academic> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Academic> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Academic> rdfs:comment """A Master's or PhD thesis.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Academic> rdfs:label """Academic""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Address> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Address> rdfs:comment """The street address of the location of some organization or event.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Address> rdfs:label """Address""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Article> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Article> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Part>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Article> rdfs:comment """An article from a journal or magazine.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Article> rdfs:label """Article""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Book> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Book> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Book> rdfs:comment """A book that may be a monograph or a collection of written texts.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Book> rdfs:label """Book""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Booklet> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Booklet> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Booklet> rdfs:comment """A work that is printed and bound, but without a named publisher or sponsoring institution.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Booklet> rdfs:label """Booklet""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Chapter> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Chapter> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Part>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Chapter> rdfs:comment """A chapter (or section or whatever) of a book having its own title.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Chapter> rdfs:label """BookPart""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Collection> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Collection> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Book>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Collection> rdfs:comment """A book that is collection of texts or articles.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Collection> rdfs:label """Collection""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Conference> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Conference> rdfs:comment """An event presenting work.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Conference> rdfs:label """The location of an event""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Date> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Date> rdfs:comment """Date of a day which can be unknown (i.e., only the year is known or only the year and month). This is for overcoming the limits of XML-Schema for wich a date is not separable.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Date> rdfs:label """Date""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Deliverable> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Deliverable> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Report>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Deliverable> rdfs:comment """A report delivered for accomplishing a contract.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Deliverable> rdfs:label """Deliverable report""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#InBook> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#InBook> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Part>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#InBook> rdfs:comment """A subpart of a book given by a range of pages.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#InBook> rdfs:label """InBook""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#InCollection> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#InCollection> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Part>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#InCollection> rdfs:comment """A part of a book having its own title.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#InCollection> rdfs:label """Incollection""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#InProceedings> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#InProceedings> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Part>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#InProceedings> rdfs:comment """An article in a conference proceedings.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#InProceedings> rdfs:label """InProceedings""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal> rdfs:comment """A document that was informally published or not published.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal> rdfs:label """Informal""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Institution> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Institution> rdfs:subClassOf http://xmlns.com/foaf/0.1/Organization
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Institution> rdfs:comment """An institution.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Institution> rdfs:label """Institution""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Journal> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Journal> rdfs:comment """A periodical publication collecting works from different authors.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Journal> rdfs:label """Journal or magazine""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#LectureNotes> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#LectureNotes> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#LectureNotes> rdfs:comment """Lecture notes.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#LectureNotes> rdfs:label """LectureNotes""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Manual> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Manual> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Manual> rdfs:comment """Technical documentation.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Manual> rdfs:label """Manual""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#MastersThesis> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#MastersThesis> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Academic>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#MastersThesis> rdfs:comment """A Master's thesis.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#MastersThesis> rdfs:label """MastersThesis""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Misc> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Misc> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Misc> rdfs:comment """Use this type when nothing else fits.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Misc> rdfs:label """Misc""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Monograph> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Monograph> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Book>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Monograph> rdfs:comment """A book that is a single entity, as opposed to a collection.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Monograph> rdfs:label """Monograph""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#MotionPicture> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#MotionPicture> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#MotionPicture> rdfs:comment """A film/movie/motion picture.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#MotionPicture> rdfs:label """MotionPicture""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#PageRange> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#PageRange> rdfs:comment """A range of pages.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#PageRange> rdfs:label """PageRange""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Part> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Part> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Part> rdfs:comment """A part of something (either Book or Proceedings).""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Part> rdfs:label """Part""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#PersonList> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#PersonList> rdfs:subClassOf http://www.w3.org/1999/02/22-rdf-syntax-ns#List
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#PersonList> rdfs:comment """A list of persons.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#PersonList> rdfs:label """Person list""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#PhdThesis> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#PhdThesis> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Academic>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#PhdThesis> rdfs:comment """A PhD thesis.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#PhdThesis> rdfs:label """PhdThesis""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Proceedings> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Proceedings> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Book>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Proceedings> rdfs:comment """A proceedings may be implicitly defined with an inproceedings.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Proceedings> rdfs:comment """The proceedings of a conference.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Proceedings> rdfs:label """Proceedings""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Publisher> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Publisher> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Institution>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Publisher> rdfs:comment """The publisher of books or journals.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Publisher> rdfs:label """Publisher""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference> rdfs:comment """Base class for all entries""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference> rdfs:label """Reference""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Report> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Report> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Reference>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Report> rdfs:comment """A report published by an institution with some explicit policy.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Report> rdfs:label """Report""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#School> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#School> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Institution>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#School> rdfs:comment """A school or university.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#School> rdfs:label """School""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#TechReport> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#TechReport> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Report>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#TechReport> rdfs:comment """A report published by a school or other institution, usually numbered within a series.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#TechReport> rdfs:label """TechReport""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Unpublished> rdf:type owl:Class;
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Unpublished> rdfs:subClassOf <http://oaei.ontologymatching.org/tests/101/onto.rdf#Informal>;
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Unpublished> rdfs:comment """A document having an author and title, but not formally published.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf#Unpublished> rdfs:label """Unpublished""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf> rdf:type http://www.w3.org/2002/07/owl#Ontology
+		
+<http://oaei.ontologymatching.org/tests/101/onto.rdf> rdfs:comment """Possible ontology to describe bibTeX entries.""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf> rdfs:label """Bibliographic references""@en ."
+
+<http://oaei.ontologymatching.org/tests/101/onto.rdf> owl:versionInfo "$Id: onto.rdf,v 1.30 2008/05/27 14:41:13 euzenat Exp $"
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#List> rdf:type owl:Class;
+		
+<http://xmlns.com/foaf/0.1/Organization> rdf:type owl:Class;
+		
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class;
+		
